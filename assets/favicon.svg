@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Akka Road logo">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f0c46a"/>
+      <stop offset="1" stop-color="#9b4d2e"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="94" fill="#101010" stroke="url(#g)" stroke-width="8"/>
+  <path d="M45 128 C70 86, 96 70, 155 52" fill="none" stroke="#f5eddf" stroke-width="10" stroke-linecap="round"/>
+  <path d="M52 144 C80 104, 103 92, 160 74" fill="none" stroke="#c7953a" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="68" cy="116" r="7" fill="#f5eddf"/>
+  <circle cx="98" cy="93" r="7" fill="#f5eddf"/>
+  <circle cx="130" cy="69" r="7" fill="#f5eddf"/>
+  <text x="100" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="800" letter-spacing="5" fill="#f5eddf">AKKA</text>
+</svg>

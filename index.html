@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Akka Road | Official Website</title>
+  <meta name="description" content="Akka Road is a soulful roots/reggae-inspired band bringing faith, family, story, and real-life music together." />
+  <meta property="og:title" content="Akka Road | Official Website" />
+  <meta property="og:description" content="Soulful roots, reggae spirit, and songs built from real life." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/akka-road-og.svg" />
+  <link rel="icon" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Akka Road home">
+      <img src="assets/akka-road-logo.svg" alt="Akka Road logo" />
+      <span>Akka Road</span>
+    </a>
+    <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#music">Music</a>
+      <a href="#story">Story</a>
+      <a href="#shows">Shows</a>
+      <a href="#media">Media</a>
+      <a href="#contact">Contact</a>
+      <a href="#" data-content="shop">Shop</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Roots • Reggae • Soul • Faith</p>
+        <h1 data-content="hero-title">Music for the road between struggle and light.</h1>
+        <p class="hero-copy" data-content="hero-copy">Akka Road brings honest songs, warm grooves, and a spirit of unity to every stage, studio, and gathering.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#music">Hear the Music</a>
+          <a class="button ghost" href="#contact">Book Akka Road</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro-grid">
+      <div>
+        <p class="eyebrow">New single</p>
+        <h2 data-content="release-title">Guiding Light</h2>
+        <p data-content="release-description">Built from prayer, real life, and the feeling of finding your way forward.</p>
+      </div>
+      <div class="feature-card">
+        <span class="card-label">Coming soon</span>
+        <h3>Studio sessions, behind-the-scenes footage, and live acoustic clips.</h3>
+        <p>Give fans the journey, not just the song.</p>
+      </div>
+    </section>
+
+    <section class="section dark" id="music">
+      <div class="section-heading">
+        <p class="eyebrow">Listen</p>
+        <h2>Music</h2>
+      </div>
+      <div class="music-panel">
+        <div>
+          <h3 data-content="release-title">Guiding Light</h3>
+          <p>Add your Spotify, Apple Music, YouTube, Bandcamp, or SoundCloud embed here.</p>
+          <div class="stream-links">
+            <a href="#" data-content="spotify" aria-label="Spotify link">Spotify</a>
+            <a href="#" data-content="apple" aria-label="Apple Music link">Apple Music</a>
+            <a href="#" data-content="youtube" aria-label="YouTube link">YouTube</a>
+          </div>
+        </div>
+        <div class="player-placeholder">
+          <span>Music Player / Video Embed</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="story">
+      <div class="section-heading">
+        <p class="eyebrow">The road</p>
+        <h2>Our Story</h2>
+      </div>
+      <div class="story-layout">
+        <p>Akka Road is about sincerity, faith, family, and sound. The band blends roots and reggae influence with soulful songwriting, taking people into the human moments behind the music: hard seasons, good friends, laughter, work, prayer, and the search for light.</p>
+        <p>This page should feel like an invitation. Not hype. Not fake. A place where people can connect with the personality of the band and feel like they are part of the journey.</p>
+      </div>
+    </section>
+
+    <section class="section split" id="shows">
+      <div>
+        <p class="eyebrow">Live</p>
+        <h2>Shows & Sessions</h2>
+        <p>Add upcoming shows, studio livestreams, acoustic sessions, private events, and community gatherings here.</p>
+      </div>
+      <div class="event-list" data-list="events">
+        <div class="event-item">
+          <span>TBA</span>
+          <strong>Akka Road Live Session</strong>
+          <em>Location coming soon</em>
+        </div>
+        <div class="event-item">
+          <span>TBA</span>
+          <strong>Behind the Song: Guiding Light</strong>
+          <em>Online / studio</em>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark" id="media">
+      <div class="section-heading">
+        <p class="eyebrow">Watch</p>
+        <h2>Media</h2>
+      </div>
+      <div class="media-grid" data-list="media">
+        <div class="media-card">Studio footage</div>
+        <div class="media-card">Live clips</div>
+        <div class="media-card">Photos</div>
+      </div>
+    </section>
+
+
+    <section class="section" data-section="members" hidden>
+      <div class="section-heading"><p class="eyebrow">The band</p><h2>Meet Akka Road</h2></div>
+      <div class="member-grid" data-list="members"></div>
+    </section>
+
+    <section class="section dark" data-section="news" hidden>
+      <div class="section-heading"><p class="eyebrow">From the road</p><h2>Latest Updates</h2></div>
+      <div class="news-grid" data-list="posts"></div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <p class="eyebrow">Booking / Contact</p>
+      <h2>Bring Akka Road to the room.</h2>
+      <p>For booking, collaborations, sync opportunities, press, or church/community events, reach out below.</p>
+      <div class="contact-actions">
+        <a class="button primary" data-content="booking-email" href="mailto:booking@example.com?subject=Akka%20Road%20Booking">Email Booking</a>
+        <a class="button ghost dark-text" data-content="instagram" href="https://instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+      </div>
+      <p class="small-note">Replace booking@example.com and social links with your real contact info.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> Akka Road. All rights reserved.</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+  <script type="module" src="content.js"></script>
+</body>
+</html>
